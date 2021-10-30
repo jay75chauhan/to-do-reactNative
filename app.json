@@ -4,9 +4,9 @@
     "slug": "to-do-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/list.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/list.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/list.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/list.png"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/jay75chauhan/to-do-reactNative"
   }
 }

@@ -6,15 +6,15 @@ import LottieView from "lottie-react-native";
 export default function SignupScreen({ navigation }) {
   return (
     <View style={tw`flex-1 bg-white  `}>
-      <View style={tw`items-center mt-20`}>
-        <Text style={tw`text-3xl font-semibold italic`}>To Do App</Text>
-      </View>
-      <SignupForm navigation={navigation} />
       <LottieView
-        style={tw`h-40  self-center `}
-        source={require("../assets/animation/to.json")}
+        style={tw`h-20 mt-10 self-center `}
+        source={require("../assets/animation/done.json")}
         autoPlay
       />
+      <View style={tw`items-center mt-10`}>
+        <Text style={tw`text-3xl font-semibold italic`}>ToDo App</Text>
+      </View>
+      <SignupForm navigation={navigation} />
     </View>
   );
 }

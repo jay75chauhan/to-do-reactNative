@@ -12,16 +12,16 @@ import LottieView from "lottie-react-native";
 export default function LoginScreen({ navigation }) {
   return (
     <View style={tw`flex-1 bg-white  `}>
+      <LottieView
+        style={tw`h-20 mt-5 self-center `}
+        source={require("../assets/animation/done.json")}
+        autoPlay
+      />
       <KeyboardAvoidingView behavior="padding" style={tw`flex-1`}>
-        <View style={tw`items-center mt-28`}>
-          <Text style={tw`text-4xl italic`}>To Do App</Text>
+        <View style={tw`items-center mt-3`}>
+          <Text style={tw`text-4xl italic`}>ToDo App</Text>
         </View>
         <LoginForm navigation={navigation} />
-        <LottieView
-          style={tw`h-40  self-center `}
-          source={require("../assets/animation/to.json")}
-          autoPlay
-        />
       </KeyboardAvoidingView>
     </View>
   );

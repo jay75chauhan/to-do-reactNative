@@ -65,6 +65,7 @@ export default function ListToDo() {
   const edit = (todo) => {
     return (
       <View
+        key={todo.id}
         style={[
           tw` w-full h-full justify-end `,
           { backgroundColor: "rgba(0,0,0,0.2)" },
@@ -75,7 +76,10 @@ export default function ListToDo() {
             Edit your Task
           </Text>
           <View key={todo.id} style={tw`flex-row items-center   mt-8 mx-3`}>
-            <View style={tw` rounded-2xl  px-3 py-2 flex-1 mr-1 shadow-sm `}>
+            <View
+              key={todo.id}
+              style={tw` rounded-2xl  px-3 py-2 flex-1 mr-1 shadow-sm `}
+            >
               <TextInput
                 style={tw`text-xl w-full`}
                 onChangeText={(text) => setEditTodo(text)}
@@ -103,6 +107,7 @@ export default function ListToDo() {
         {todos.map((todo) => (
           <>
             <Modal
+              key={todo.id}
               animationType="slide"
               visible={modalVisible}
               transparent={true}
