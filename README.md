@@ -1,6 +1,8 @@
 # to-do-reactNative
 
-link:= "exp://exp.host/@jay75chauhan/to-do-app"
+app link:=  https://expo.dev/@jay75chauhan/to-do-app
+
+video link:=   https://gecrajkotacin-my.sharepoint.com/:v:/g/personal/180200111022_gecrajkot_ac_in/EcR7BzcePWZEoGYB_3sdgjEBT4krYdqXgu8j-KD6dBum-A?e=2KGUCt
 
 sign in with firebase
 
