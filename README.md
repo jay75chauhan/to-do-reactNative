@@ -1,6 +1,6 @@
 # to-do-reactNative
 
-
+link:= "exp://exp.host/@jay75chauhan/to-do-app"
 
 sign in with firebase
 
